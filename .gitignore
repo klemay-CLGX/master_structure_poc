@@ -15,7 +15,7 @@
 *.qmd
 
 # ignore notebooks
-*.ipynb
+#*.ipynb
 
 # ignore geodatabases
 *.gdb
