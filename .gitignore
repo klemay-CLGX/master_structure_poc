@@ -1,0 +1,73 @@
+# ignore shapefiles
+*.shp
+*.shx
+*.cpg
+*.prj
+*.dbf
+*.lock
+*.xml
+*_.gstmp
+*.sbn
+*.sbx
+*.dat
+*.rtx
+*.feather
+*.qmd
+
+# ignore notebooks
+*.ipynb
+
+# ignore geodatabases
+*.gdb
+
+# ignore pickles
+*.pkl
+
+# zip files
+*.zip
+
+# ignore logs csv
+*.log
+*.csv
+
+# ignore txt files except for params_config.txt
+*.txt
+!params_config.txt
+!requirements.txt
+!dem_tiles.txt
+
+
+# development python caches
+__pycache__/
+
+
+# ignore spatial compression files
+*.parquet
+*.lyrx
+
+
+# ignore html
+*.html
+
+# ignore rasters
+*.tif
+*.ovr
+*.bat
+*.rrd
+*.tfw
+*.tif.aux
+*.vrt
+
+
+# testing config files
+#*config.py
+
+# ignore inputs directory
+inputs/
+
+# ignore outputs directory
+build/
+
+# ignore env directory
+.venv/
+.env/
