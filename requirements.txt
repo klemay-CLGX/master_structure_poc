@@ -1,5 +1,7 @@
-rasterio
+rasterio=1.3.10
 dask
 dask_geopandas
 scikit-image
-matplotlib
+pytest
+pytest-ordering
+ipykernel

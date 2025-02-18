@@ -1,0 +1,10 @@
+name: csr_2024_v10
+channels:
+  - conda-forge  
+dependencies:
+  - python=3.11  
+  - geopandas=0.14.4
+  - dask-core
+  - dask-geopandas
+  - scikit-image
+  - ipykernel
